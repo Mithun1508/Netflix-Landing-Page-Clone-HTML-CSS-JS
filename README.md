@@ -457,6 +457,6 @@ if(i == data.length - 1){
         setupScrolling();
     }, 100);
 }
-And this is checking for the last cast. when we are done creating cards. we are running setupScrolling() function to setup slider effect. We also have to create this.
+And this is checking for the last cast. when we are done creating card. we are running setupScrolling() function to setup slider effect. We also have to create this.
 
 # site is Live Now :  https://csb-bewj5j.vercel.app/
