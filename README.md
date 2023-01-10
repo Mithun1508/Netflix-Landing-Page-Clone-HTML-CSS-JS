@@ -33,7 +33,7 @@ Great Now install Some libraries that we need in order to create a server.
 
 After creating package.json file. Run this command.
 
-npm i express.js nodemon
+ $ npm i express.js nodemon
 
 i - means install.
 
