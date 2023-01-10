@@ -111,65 +111,7 @@ navbar
 All the CSS properties I'll use are easy to understand. So i'll only explain you JS only. But if you have doubt in any part. Even in CSS. Feel free to ask me in discussions.
 
 Now style the navbar
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body{
-    width: 100%;
-    position: relative;
-    background: #181818;
-    font-family: 'roboto', sans-serif;
-}
-
-.navbar{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    z-index: 9;
-    background: #000;
-    padding: 0 2.5vw;
-    display: flex;
-    align-items: center;
-}
-
-.logo{
-    height: 60%;
-}
-
-.join-box{
-    width: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    margin-left: auto;
-}
-
-.join-msg{
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.btn{
-    border: 1px solid #fff;
-    border-radius: 2px;
-    background: none;
-    color: #fff;
-    height: 35px;
-    padding: 0 10px;
-    margin-left: 10px;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.join-btn{
-    background: #dd0e15;
-    border-color: #dd0e15;
-}
 Output
 navbar 2
 Now create movie section.
@@ -217,55 +159,7 @@ And we have to create a movie list element inside .main element, this will hold 
 
 </div>
 You can see here, we have pre-btn and nxt-btn with them we also have a movie-card element. Well, we will create movie card and list element all with JS but for styling purpose we are creating one card here. Just for the sake of CSS.
-.movie-list{
-    width: 100%;
-    height: 250px;
-    margin-top: 40px;
-    position: relative;
-}
 
-.movie-category{
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-}
-
-.movie-container{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-}
-
-.movie-container::-webkit-scrollbar{
-    display: none;
-}
-
-.movie{
-    flex: 0 0 auto;
-    width: 24%;
-    height: 200px;
-    text-align: center;
-    margin-right: 10px;
-    cursor: pointer;
-    position: relative;
-}
-
-.movie img{
-    width: 100%;
-    height: 170px;
-    object-fit: cover;
-}
-
-.movie p{
-    text-transform: capitalize;
-    height: 20px;
-    overflow: hidden;
-}
 
 .pre-btn,
 .nxt-btn{
@@ -352,15 +246,6 @@ movie_genres_http - is to fetch the movie having same genres.
 After done with these HTTPs. Open home.js file.
 
 home.js
-fetch(genres_list_http + new URLSearchParams({
-    api_key: api_key
-}))
-.then(res => res.json())
-.then(data => {
-    data.genres.forEach(item => {
-        fetchMoviesListByGenres(item.id, item.name);
-    })
-});
 # Explanation
 Here, we are using fetch method to genres_list_http that we have declared in api.js file. And using new URLSearchParams for adding api_key parameters to the link. And after getting res we are converting it to JSON be res.json() and after converting it to JSON we got the fetched data. Inside that. before understanding what we are doing. First see our fetched data structure.
 
