@@ -41,4 +41,8 @@ express.js - is a library we need to create server.
 
 nodemon - is a library which allow you to run server seamlessly even after making changes to the server.
 
+# NOTE:
+ clone the project locally  https://github.com/Mithun1508/Netflix-clone-2.0 and run it by using the following npm command 
+   $ npm start 
+
 # site is Live Now :  https://csb-bewj5j.vercel.app/
