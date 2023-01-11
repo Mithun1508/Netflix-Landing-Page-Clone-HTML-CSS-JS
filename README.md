@@ -1,4 +1,5 @@
 # Netflix clone with HTML,CSS, JS.
+[![Frameworks & Library](https://img.shields.io/badge/Netflix-E50914?style=for-the-badge&logo=netflix&logoColor=white)](https://www.apple.com/macos/catalina-preview)
 Netflix Clone, we all use Netflix in our day to day life for watching Movie. And if you are just starting with web development. This project can be a good practice project for you. This netflix clone is a dynamic site and has everything you need for fullstack development practice. It runs on a Node.js server. It uses TMDB API for all data.
 
 # Features:
