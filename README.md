@@ -17,6 +17,12 @@ Netflix Clone, we all use Netflix in our day to day life for watching Movie. And
 
 6) Has smooth card slider effect.
 
+# Tech stack Used
+
+[![Skills](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.apple.com/macos/catalina-preview)
+[![Skills](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.apple.com/macos/catalina-preview)
+[![Skills](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://www.apple.com/macos/catalina-preview)
+
 # CODE
 As this is a node.js web app. We need NPM and Node.js in order to start with, so make sure you have them installed in your system.
 
