@@ -3,6 +3,10 @@
 
 Netflix Clone, we all use Netflix in our day to day life for watching Movie. And if you are just starting with web development. This project can be a good practice project for you. This netflix clone is a dynamic site and has everything you need for fullstack development practice. It runs on a Node.js server. It uses TMDB API for all data.
 
+
+![maxresdefault](https://user-images.githubusercontent.com/93249038/215395761-96c2d266-191f-4786-bed2-2f8973fff049.jpg)
+
+
 # Features:
 
 1) Looks similar to Netflix.
